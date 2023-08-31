@@ -1,0 +1,11 @@
+type,limit
+类型,最高等级
+string,number
+skill_plr,20
+equip,180
+gem,10
+citta,10
+hero,60
+skill_hero,20
+talent,50
+player,60

@@ -1,0 +1,13 @@
+id,name,desc,target,break_rate,break_move,show,icon,is_loop,loop_time,is_spasmodic,deltatime,buff_type,mutex_id,mutex_lv,script_type,param1,param2,param3,param4,param5,param6,param7,param8,param9
+效果ID,效果名称,效果描述,效果生效目录（1：技能施放者；2：受击者；3：技能施放者团队),打断其它技能的概率,是否打断行走,表现(目标身上）,buff图标(目标身上),是否持续效果,持续时间,是否间隔发作,间隔时间,buff类型(1:Buff; 2:DeBuff; 3:护盾Buff; 4:晕眩buff;) ,互斥id（用于互斥关系判断）,互斥级别,1:造成parma1%的普通攻击伤害;并造成parma2的额外伤害,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+number,string,string,number,number,bool,string,string,bool,number,bool,number,number,number,number,number,number,number,number,number,number,number,number,number,number
+1,普通技,造成100%的普通攻击伤害,2,0,FALSE,assetbundle/daobinghurt(matinee).matinee,,FALSE,0,FALSE,0,1,-1,-1,1,100,100,,,,,,,
+2,死亡,死亡,2,0,FALSE,assetbundle/death(matinee).matinee,,FALSE,0,FALSE,0,1,-1,-1,1,0,0,,,,,,,
+3,测试眩晕,有param1%的机率晕眩目标param2秒,2,0,TRUE,assetbundle/daobinghurt(matinee).matinee,,FALSE,0,FALSE,0,4,1,1,2,100,2,,,,,,,
+4,普攻1,普攻1,2,0,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,1,100,0,,,,,,,
+5,普攻2,普攻2,2,0,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,1,100,0,,,,,,,
+6,普攻3,普攻3,2,0,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,1,100,0,,,,,,,
+7,刀兵普攻,刀兵普攻,2,0,FALSE,assetbundle/pb_Monster_hit01(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,1,100,0,,,,,,,
+8,曹仁技能,曹仁技能-伤害,2,0,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,1,100,0,,,,,,,
+9,曹仁技能,曹仁技能-击退,2,100,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,FALSE,0,FALSE,0,-1,-1,-1,3,100,2,25,,,,,,
+10,曹仁技能,曹仁技能-防御buff,1,0,TRUE,assetbundle/pb_Monster_hit02(matinee).matinee,,TRUE,10,FALSE,0,-1,-1,-1,4,0,0,50,,,,,,

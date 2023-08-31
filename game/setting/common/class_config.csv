@@ -1,0 +1,6 @@
+id,name,avatar,icon,lv,exp,max_energy,vip,money,rmb,dizziness_show,knockup_show,silent_show,poison_show,firing_show,shadow,shadow_scale,ai,quest,skill0,skill1,skill2,skill3,skill4,skill5,skill6,skill7,skill8,skill9,skill10,skill11,init_equip,init_item
+角色ID,角色名字,角色形象,角色头像,角色等级,经验,体力值上限,VIP级别,金币,元宝数量,眩晕表现,击飞表现,沉默表现,中毒表现,灼烧表现,脚底阴影,脚底阴影缩放,ai参数,初始任务(;分割),普攻1,普攻2,普攻3,技能1,技能2,技能3,技能4,技能5,技能6,技能7,技能8,技能9,初始装备,初始道具
+number,string,number,string,number,number,number,number,number,number,string,string,string,string,string,string,number,number,string,number,number,number,number,number,number,number,number,number,number,number,number,string,string
+1,赵云,1,test,1,0,100,0,10000,100,,,,,,AssetBundle/characters_shadow(gameobject).gameobject,1,2,-1,4,5,6,8,-1,-1,-1,-1,-1,-1,-1,-1,20000001_1|20000002_1,10000001_1|10000002_1
+2,周瑜,1,test,1,0,100,0,10000,100,,,,,,AssetBundle/characters_shadow(gameobject).gameobject,1,2,-1,4,5,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,20000001_1|20000002_1,10000001_1|10000002_1
+3,貂蝉,1,test,1,0,100,0,10000,100,,,,,,AssetBundle/characters_shadow(gameobject).gameobject,1,2,-1,4,5,6,-1,-1,-1,-1,-1,-1,-1,-1,-1,20000001_1|20000002_1,10000001_1|10000002_1

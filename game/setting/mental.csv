@@ -1,0 +1,5 @@
+id,name,class_id,icon,desc,quality,pile_max,can_sell,cost,can_use,reward,use_to_ui
+道具ID,道具名称,道具小类,图标,道具描述,品质,堆叠数上限,是否能出售,出售价钱（1道具2装备3宝石4心法5属性【123】）,是否能使用,数值,使用前往界面
+number,string,number,string,string,number,number,bool,string,bool,string,string
+1,道具1,1,,道具描述1,1,100,FALSE,5_1_100,FALSE,1_1_1|5_1_100,ui_sell_item
+2,道具1,1,,道具描述2,1,100,FALSE,5_1_100,FALSE,1_1_1|5_1_100,ui_sell_item

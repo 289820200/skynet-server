@@ -1,0 +1,4 @@
+id,name,desc,show,icon,is_loop,loop_time,is_spasmodic,deltatime,script_type,buff_type,param1,param2,param3,param4,param5,param6,param7,param8,param9
+效果ID,效果名称,效果描述,表现(目标身上）,buff图标(目标身上),是否持续效果,持续时间,是否间隔发作,间隔时间,1:造成parma1%的普通攻击伤害;并造成parma2的额外伤害,buff类型(1:Buff; 2:DeBuff; 3:护盾Buff; 4:晕眩buff;) ,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE,NONE
+number,string,string,string,string,bool,number,bool,number,number,number,number,number,number,number,number,number,number,number,number
+1,普通技,造成100%的普通攻击伤害,assetbundle/hit(matinee).matinee,,FALSE,0,FALSE,0,1,1,100,100,,,,,,,

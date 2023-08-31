@@ -1,0 +1,5 @@
+id,name,ip,port,status,status_desc,open_time
+ID,名称,地址,端口,状态,状态描述,"开服时间(%y%m%d%H%M%S),年份用四位表示"
+number,string,string,number,number,string,string
+1,一服,127.0.0.1,8888,1,流畅,2015-11-11 12:00
+2,二服,127.0.0.1,8889,1,流畅,2015-11-12 12:00

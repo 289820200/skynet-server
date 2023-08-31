@@ -1,0 +1,11 @@
+id,priv_key,priv_desc
+表id,"特权索引,特权激活类型：-1，未开通：0，大于0表示可使用次数",特权描述
+number,string,string
+1,buy_strength,可购买体力值次数
+2,mult_dungeon,非3星即可使用多次挑战副本功能；
+3,reset_map_times,精英/boss/地狱关卡可额外重置3次
+4,exchange_times,兑换商城额外增加4次刷新次数
+5,add_buy_hp_times,药水每天购买次数上限增加3次；
+6,add_buy_citta_times,技能书每天购买次数上限增加9次；
+7,add_buy_exp_times,经验丹每天购买次数上限增加9次
+8,money_limit,开启联赛押宝功能，每次押宝上限1000元宝；

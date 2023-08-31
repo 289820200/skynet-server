@@ -1,0 +1,5 @@
+note,scene_id,area_id,pos,radius,kill_pre,time,delta_time,spawn_monster_ids
+注释,场景id,区域id,相对位置,半径,是否须先杀完上一波怪物,开始刷怪时间秒,间隔时间秒,刷怪列表(以;分隔）
+string,number,number,number,number,boolean,number,number,string
+,1003,100301,5,2,TRUE,0,0,1;1;3;1
+,1003,100302,5,2,TRUE,0,0,2;2;2;2;2;2;2

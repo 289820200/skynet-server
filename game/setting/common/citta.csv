@@ -1,0 +1,6 @@
+id,name,icon,desc,type,param1,param2,param3,param4,param5,param6,param7
+心法id,心法名称,心法图标,心法效果描述,心法类型,参数1,参数2,参数3,参数4,参数5,参数6,参数7
+Number,String,string,String,number,number,number,number,number,number,number,number
+40000001,Street,,此次技能攻击有X概率补充X点能量,1,3,,,,,,
+40000002,Chibi,,assetbundle/chibi.animationmodel,1,,,,,,,
+40000003,Huangjinluan,,,1,,,,,,,

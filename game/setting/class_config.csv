@@ -1,0 +1,6 @@
+id,name,avatar,icon,lv,exp,max_energy,vip,money,rmb,camp,ai,quest,skill0,skill1,skill2,skill3,skill4,skill5,skill6,skill7,skill8,skill9,skill10,skill11,init_equip,init_item,init_gem,hero_id
+角色ID,角色名字,角色形象,角色头像,角色等级,经验,体力值上限,VIP级别,金币,元宝数量,阵营,ai参数,初始任务(;分割),普攻1,普攻2,普攻3,普攻4,技能1,技能2,技能3,技能4,技能5,技能6,技能7,被动技1,初始装备,初始道具,初始宝石(id_num_lv;id_num_lv),初始副将
+number,string,number,string,number,number,number,number,number,number,number,number,string,number,number,number,number,number,number,number,number,number,number,number,number,string,string,string,string
+1,赵云,1,head_player_001,1,0,100,0,10000,100,1,11,-1,101,102,103,104,105,106,107,108,-1,-1,-1,-1,20000001_1|20000002_1,10300000_10,30000001_1_1,60000001_1_0|60000002_1_0|60000011_1_0
+2,夏侯,1,head_player_001,1,0,100,0,10000,100,1,12,-1,101,102,103,104,105,106,107,108,-1,-1,-1,-1,20000001_1|20000002_1,10300000_10,30000001_1_1,60000001_1_0|60000002_1_0|60000011_1_0
+3,孙尚香,117,head_player_001,1,0,100,0,10000,100,1,13,-1,101,102,103,104,105,106,107,108,-1,-1,-1,-1,20000001_1|20000002_1,10300000_10,30000001_1_1,60000001_1_0|60000002_1_0|60000011_1_0

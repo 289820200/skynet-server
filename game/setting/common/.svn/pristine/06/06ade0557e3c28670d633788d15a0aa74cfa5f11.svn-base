@@ -1,0 +1,4 @@
+id,stage,lv,max_hp,attack,defense,critical,critical_defense,move_speed,attack_rate,hp_recovery,attack_range
+副将ID,品阶(0:0阶 1:1阶 2:2阶),等级,最大生命值,攻击值,防御,暴击,暴击防御,移动速度,攻击速度,生命恢复速度,攻击距离
+number,number,number,number,number,number,number,number,number,number,number,number
+1,0,1,100,100,100,100,100,0.2,1,1,1

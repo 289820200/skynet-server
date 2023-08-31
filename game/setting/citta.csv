@@ -1,0 +1,10 @@
+id,name,icon
+心法id,心法名称,心法图标
+Number,String,string
+40010001,加深,citta_icon_001
+40010002,聚力,citta_icon_002
+40010003,爆发,citta_icon_003
+40010004,重击,citta_icon_004
+40010005,流血,citta_icon_005
+40010006,吸血,citta_icon_006
+40010007,穿透,citta_icon_007

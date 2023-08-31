@@ -1,0 +1,4 @@
+id,name,desc,is_break_self,is_break_hurt,is_breakable,skill_datas,skill_type
+技能ID,技能名称,技能描述,是否允许被自身打断,是否会被伤害打断,是否具备打断效果,技能数据id列表(不同等级以;号分隔),技能类型（1：主动技 2:被动技）
+number,string,string,bool,bool,bool,string,number
+1,test,test,FALSE,FALSE,FALSE,1,1

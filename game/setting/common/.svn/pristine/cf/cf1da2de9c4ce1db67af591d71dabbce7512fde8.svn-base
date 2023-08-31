@@ -1,0 +1,8 @@
+note,id,name,desc,type,init_state,change_state,can_attack,strike_back,follow,skill_list,skill_hp,skill_cd,scan_dist,attack_dist,return_dist,patrol_dist,tar_type,tar_scence,tar_id,tar_count,tar_skill,tar_state,tar_hp,tar_sex,tar_camp,tar_pos
+注释,参数id,行为树资源,详细描述,自身类型(0:NPC 1:玩家 2:副将 3:普通 4:精英 5:Boss),初始状态,关注后状态变化,是否可以攻击,是否会还击,是否跟随,技能列表(;分割),技能释放hp条件(;分割),技能释放cd条件(;分割),感知距离,追击距离,回防距离,巡逻距离,关注目标类型(0:NPC 1:玩家 2:副将 3:普通 4:精英 5:Boss),关注场景,关注目标,关注个数,关注技能,关注状态,关注血量,关注性别,关注阵营,关注X位置(;分割)
+string,number,string,string,number,string,string,bool,bool,bool,string,string,string,number,number,number,number,number,string,number,number,number,string,number,number,number,string
+玩家,1,PlayerAI,"玩家,自动普通",1,Idle,Idle,TRUE,FALSE,FALSE,0;1;2,100;100;100,10;20;30,-1,-1,-1,-1,0,-1,-1,1,-1,null,-1,-1,-1,-9999
+普通,2,MonsterCommonAI,"普通怪物,正常巡逻,定点待机",3,Idle,Idle,TRUE,TRUE,FALSE,0;3,100;50,10;20;31,10,5,5,3,1,-1,-1,1,-1,null,50,-1,-1,-9999
+城门,3,MonsterCommonAI,"城门,不攻击,不反击",3,Idle,Idle,FALSE,FALSE,FALSE,-1,-1,10;20;32,-1,-1,-1,-1,3,-1,-1,1,-1,null,50,-1,-1,-9999
+护送,4,MonsterCommonAI,"指定地点, 攻击, 不反击",3,Idle,Idle,TRUE,FALSE,FALSE,0;3,100;50,10;20;33,20,10,10,-1,3,-1,-1,1,-1,null,-1,-1,-1,-9999
+士兵,5,MonsterCommonAI,"向前冲, 攻击指定目标,反击.",3,Idle,Idle,TRUE,TRUE,FALSE,0;3,100;50,10;20;34,20,10,10,-1,1,-1,-1,1,-1,null,-1,-1,-1,-9999

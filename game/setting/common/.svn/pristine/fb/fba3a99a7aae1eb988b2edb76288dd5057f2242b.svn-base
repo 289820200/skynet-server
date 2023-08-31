@@ -1,0 +1,4 @@
+id,name,avatar,icon,type,lv,skill0,skill1,skill2
+怪物ID,怪物名字,怪物形象,怪物头像,怪物种类（克制用）,等级,普攻,技能1,技能2
+number,string,number,string,number,number,number,number,number
+1,test_monster,2,,1,1,1,1,-1

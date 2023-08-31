@@ -1,0 +1,10 @@
+id,name
+属性ID,属性名称
+number,string
+50000001,exp
+50000002,energy
+50000003,hp
+50000004,sp
+50000005,money
+50000006,rmb
+50000007,hero_exp

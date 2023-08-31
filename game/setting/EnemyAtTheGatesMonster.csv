@@ -1,0 +1,4 @@
+a,id,cool_down,time_duration,quality,horizontal_size,monster_id
+注释,ID,冷却时间,持续时间,品质(0:绿 1:蓝 2:紫),尺寸（占的格子数）,怪物表的ID
+string,number,number,number,number,number,number
+大炮,1,5,10,1,1,1003004

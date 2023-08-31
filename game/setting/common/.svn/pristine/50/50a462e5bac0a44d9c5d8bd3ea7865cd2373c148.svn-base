@@ -1,0 +1,4 @@
+note,scene_id,area_id,pos,radius,time,name,type,eparams,trigger_times
+注释,关卡ID,区域ID(-1代表不分区域，只根据时间）,玩家相对位置(-1代表对位置不敏感）,半径(玩家一旦进入pos半径内即触发）,时间范围（mintime;maxtime) -1代表对时间不敏感）,事件名称,事件类型(1:刷怪）,条件参数,可触发次数
+string,number,number,number,number,string,string,number,string,number
+刷怪;参数:(clsid number pos radius);(clsid number pos radius),1003,100301,5,2,-1,刷怪,1,(1001 2 5 5);(1002 1 8 1);,1

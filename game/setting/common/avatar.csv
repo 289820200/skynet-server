@@ -1,0 +1,6 @@
+id,main,body,weapon_left,weapon_right
+皮肤ID,主框架,身体,左手武器,右手武器
+number,string,string,string,string
+1,assetbundle/caoren(animatormodel).animatormodel,,,
+2,assetbundle/daobing_01(animatormodel).animatormodel,,,
+3,assetbundle/huangjinjun_02(animatormodel).animatormodel,,,
