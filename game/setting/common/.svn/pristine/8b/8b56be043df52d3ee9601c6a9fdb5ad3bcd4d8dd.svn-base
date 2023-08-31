@@ -1,7 +1,0 @@
-note,id,buff_id,tar_type,tar_id,ultimate_count,ultimate_cd,can_relive,relive_money,hero_count,drug_count,see_self_hp,see_boss_hp,next_time
-注释,参数id,效果id(;分割),目标类型(0:全部 1:玩家 2:副将 3:NPC 4:普通 5:精英 6:BOSS),指定目标(;分割),狂斩次数,狂斩cd(秒),是否允许复活,复活元宝消耗(;分割),副将个数,药品次数,是否更新自己血条,是否更新Boss血条,过场倒计时(秒)
-string,number,string,number,string,number,number,bool,string,number,number,bool,bool,number
-,1,101,1,1;2,1,100,TRUE,10;20;30,2,10,TRUE,TRUE,30
-##测试##,,,,,,,,,,,,,
-,101,101;102,1,-1,1,100,TRUE,10;20;30,2,10,TRUE,TRUE,30
-##正文##,,,,,,,,,,,,,

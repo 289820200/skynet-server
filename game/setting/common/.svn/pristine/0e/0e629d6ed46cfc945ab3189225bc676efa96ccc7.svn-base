@@ -1,6 +1,0 @@
-note,id,name,resource_name,born_pos,area_id1,area_id2,area_id3,area_id4,area_id5,area_id6,area_id7,area_id8
-注释,场景ID,场景名称,场景资源,主角出生位置,区域1,区域2,区域3,区域4,区域5,区域6,区域7,区域8
-string,number,string,string,number,number,number,number,number,number,number,number,number
-寺庙,1001,Street,assetbundle/simiao.gameobject,0,-1,-1,-1,-1,-1,-1,-1,-1
-赤壁,1002,Chibi,assetbundle/chibi.animationmodel,0,-1,-1,-1,-1,-1,-1,-1,-1
-黄巾乱,1003,Huangjinluan,assetbundle/huangjinluan(scenemapdata).scenemapdata,1,100301,100302,-1,-1,-1,-1,-1,-1

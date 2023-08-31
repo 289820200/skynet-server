@@ -1,5 +1,0 @@
-note,id,name,minx,maxx
-注释,区域ID,区域名称,起始坐标x,结束坐标x
-string,number,string,number,number
-黄巾乱,100301,黄巾乱区域1,0,15
-黄巾乱,100302,黄巾乱区域2,15,30

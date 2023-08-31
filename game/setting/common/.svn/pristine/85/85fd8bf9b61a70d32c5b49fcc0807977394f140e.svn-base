@@ -1,5 +1,0 @@
-id,name,resource_name
-场景ID,场景名称,场景资源
-Number,String,String
-1001,Street,assetbundle/simiao.gameobject
-1002,Chibi,assetbundle/chibi.animationmodel

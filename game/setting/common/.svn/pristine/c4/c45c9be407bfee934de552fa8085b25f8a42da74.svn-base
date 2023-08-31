@@ -1,9 +1,0 @@
-key,content
-×Ö·û´®µÄkey,×Ö·û´®
-string,string
-ERROR_MAP_CONF,"cant find map,id=%d"
-ERROR_MAP_DIFF,map %d dont have diff %d
-ERROR_REPEAT_ENTER_MAP,Have entered a map
-ERROR_DIDN_PASS_PRE_MAP,havent pass pre map
-ERROR_DIDN_PASS_PRE_DIFF,havent pass pre diff
-ERROR_LEVEL_TOO_LOW,level too low

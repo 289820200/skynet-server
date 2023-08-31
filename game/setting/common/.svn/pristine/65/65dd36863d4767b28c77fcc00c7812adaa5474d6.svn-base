@@ -1,4 +1,0 @@
-id,lv,max_hp,exp,max_sp,attack,defense,critical,critical_defense,move_speed,attack_rate,hp_recovery,sp_recovery,attack_range,attack_innate_lv,defense_innate_lv,hp_innate_lv,sp_innate_lv
-角色ID,等级,最大生命值,升到下一级所需经验,最大怒气值,攻击值,防御,暴击,暴击防御,移动速度,攻击速度,生命恢复速度,SP恢复速度,攻击距离,攻击天赋等级,防御天赋等级,生命天赋等级,怒气天赋等级
-number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number
-1,1,100,100,100,100,100,100,100,1,1,1,1,1,0,0,0,0

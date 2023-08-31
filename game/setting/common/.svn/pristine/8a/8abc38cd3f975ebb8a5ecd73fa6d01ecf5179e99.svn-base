@@ -1,6 +1,0 @@
-note,id,monster_id1,number1,monster_id2,number2,monster_id3,number3,monster_id4,number4
-注释,刷怪id,怪物id1,数量,怪物id2,数量,怪物id2,数量,怪物id3,数量
-string,number,number,number,number,number,number,number,number,number
-,1,1001,2,-1,0,-1,0,-1,0
-,2,1002,2,-1,0,-1,0,-1,0
-,3,1001,2,-1,0,-1,0,-1,0

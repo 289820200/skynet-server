@@ -1,5 +1,0 @@
-id,hp,sp,need_hp,need_sp
-技能释放条件id,消耗hp,消耗sp,需要至少多少点hp(-1代表没限制),需要至少多少点sp(-1代表没限制)
-number,number,number,number,number
-1,0,10,-1,-1
-2,0,0,-1,-1

@@ -1,6 +1,0 @@
-note,id,scence_id,player_exp,hero_exp,gold,money,activity,item1,count1,rate1,item2,count2,rate2,item3,count3,rate3,item4,count4,rate4,item5,count5,rate5,item6,count6,rate6,item7,count7,rate7,item8,count8,rate8,item9,count9,rate9,item10,count10,rate10
-注释,参数id,关卡id,主角经验,副将经验,金币,元宝,活跃度,道具1,数量1,概率1,道具2,数量2,概率2,道具3,数量3,概率3,道具4,数量4,概率4,道具5,数量5,概率5,道具6,数量6,概率6,道具7,数量7,概率7,道具8,数量8,概率8,道具9,数量9,概率9,道具10,数量10,概率10
-string,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number,number
-无,1,1,1,2,3,4,5,1,2,100,4,5,100,7,8,100,10,11,100,13,14,100,16,17,100,19,20,100,22,23,100,25,26,100,28,29,100
-无,2,2,1,2,3,4,5,2,3,100,5,6,100,8,9,100,11,12,100,14,15,100,17,18,100,20,21,100,23,24,100,26,27,100,29,30,100
-无,3,3,1,2,3,4,5,3,4,100,6,7,100,9,10,100,12,13,100,15,16,100,18,19,100,21,22,100,24,25,100,27,28,100,30,31,100

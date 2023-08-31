@@ -1,5 +1,0 @@
-id,name,class_id,icon,desc,quality,can_sell,cost,can_use,reward,use_to_ui
-道具ID,装备名称,装备小类,图标,装备描述,品质,是否能出售,出售价钱（1道具2装备3宝石4心法5属性【123】）,是否能使用,数值,使用前往界面
-number,string,number,string,string,number,bool,string,bool,string,string
-1,装备名称1,1,,道具描述1,1,FALSE,5_1_100,FALSE,1_1_1|5_1_100,ui_sell_item
-2,装备名称1,1,,道具描述2,1,FALSE,5_1_100,FALSE,1_1_1|5_1_100,ui_sell_item
