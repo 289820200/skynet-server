@@ -5,7 +5,6 @@
 --------------------------------------
 
 local database = ".database"
-local annc = require "announcement"
 
 User={
     
