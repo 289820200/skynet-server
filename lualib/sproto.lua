@@ -1,7 +1,9 @@
 local core = require "sproto.core"
 local assert = assert
 
+---@class sproto
 local sproto = {}
+---@class host
 local host = {}
 
 local weak_mt = { __mode = "kv" }
@@ -38,6 +40,7 @@ function sproto.parse(ptext)
 	return sproto.new(pbin)
 end
 
+---@return host
 function sproto:host( packagename )
 	packagename = packagename or  "package"
 	local obj = {
