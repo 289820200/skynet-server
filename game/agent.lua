@@ -86,7 +86,12 @@ function REQUEST:quit()
 	skynet.call(WATCHDOG, "lua", "close", client_fd)
 end
 
-local function request(name, args, response)
+local function send_package(pack)
+	local package = string.pack(">s2", pack)
+	socket.write(client_fd, package)
+end
+
+local function onRequest(name, args, response)
 	log.debug("request name", name,"args :")
 	print(name)
 	log.info(args)
@@ -94,27 +99,24 @@ local function request(name, args, response)
 	local r = f(args)	
 	log.debug("============================= respones ========================")
 	log.infot(r)
-	if response then
-		local char 
-		if user then 
-			char = user.character 
-		end 
-		if char then 
-			-- 由自身决定是否保存数据			
-			char:save()
-			char.depart_time = 0
-		end 
-		if r then
-			return response(r)
-		else
-			return nil
-		end
-	end
-end
 
-local function send_package(pack)
-	local package = string.pack(">s2", pack)
-	socket.write(client_fd, package)
+	send_package(send_request("sm_info",{code =1, info=r}))
+	--if response then
+	--	local char
+	--	if user then
+	--		char = user.character
+	--	end
+	--	if char then
+	--		-- 由自身决定是否保存数据
+	--		char:save()
+	--		char.depart_time = 0
+	--	end
+	--	if r then
+	--		return response(r)
+	--	else
+	--		return nil
+	--	end
+	--end
 end
 
 skynet.register_protocol {
@@ -125,7 +127,7 @@ skynet.register_protocol {
 	end,
 	dispatch = function (_, _, type, ...)
 		if type == "REQUEST" then
-			local ok, result  = pcall(request, ...)
+			local ok, result  = pcall(onRequest, ...)
 			if ok then
 				if result then
 					send_package(result)
@@ -145,8 +147,10 @@ function CMD.start(conf)
 	gate = conf.gate
 	WATCHDOG = conf.watchdog
 	-- slot 1,2 set at main.lua
-	host = sprotoloader.load(1):host "package"
-	send_request = host:attach(sprotoloader.load(2))
+	local proto = sprotoloader.load(1)
+	---@type host
+	host = proto:host "package"
+	send_request = host:attach(proto)
 	-- skynet.fork(function()
 	-- 	while true do
 	-- 		send_package(send_request "heartbeat")

@@ -340,11 +340,13 @@ update_game_setting 5 {
     } 
 }
 
-heart_beat 6 {
-    request {
+
+sm_info 6
+{
+    request{
+        code:integer
+        info:string
     }
-    response {
-    } 
 }
 
 #测试用接口
