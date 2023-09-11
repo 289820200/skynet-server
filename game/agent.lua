@@ -100,7 +100,7 @@ local function onRequest(name, args, response)
 	log.debug("============================= respones ========================")
 	log.infot(r)
 
-	send_package(send_request("sm_info",{code =1, info=r}))
+	send_package(send_request("sm_info",{code =1, info=r.msg}))
 	--if response then
 	--	local char
 	--	if user then
