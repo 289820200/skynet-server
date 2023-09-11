@@ -343,8 +343,8 @@ update_game_setting 5 {
 
 sm_info 6 {
     request{
-        code:integer
-        info:string
+        code 0:integer
+        info 1:string
     }
 }
 
